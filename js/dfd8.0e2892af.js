@@ -1,2 +1,0 @@
-(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["dfd8"],{dfd8:function(e,t,n){"use strict";n.r(t);var o=function(){var e=this,t=e.$createElement,n=e._self._c||t;return n("d2-container",[n("template",{slot:"header"},[e._v("Page 3 header")]),e._v("\n  Hello World\n  "),n("template",{slot:"footer"},[e._v("footer")])],2)},l=[],a=(n("cadf"),n("551c"),n("097d"),{name:"page3"}),d=a,r=n("2877"),c=Object(r["a"])(d,o,l,!1,null,null,null);c.options.__file="index.vue";t["default"]=c.exports}}]);
-//# sourceMappingURL=dfd8.0e2892af.js.map

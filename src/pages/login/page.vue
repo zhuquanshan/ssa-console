@@ -33,23 +33,23 @@
         </el-card>
       </div>
       <!-- 快速登录按钮 -->
-      <el-button size="default" type="info" class="button-help" @click="dialogVisible = true">
-        快速选择用户（测试功能）
-      </el-button>
+      <!--<el-button size="default" type="info" class="button-help" @click="dialogVisible = true">-->
+        <!--快速选择用户（测试功能）-->
+      <!--</el-button>-->
     </div>
-    <el-dialog
-      title="快速选择用户"
-      :visible.sync="dialogVisible"
-      width="400px">
-      <el-row :gutter="10" style="margin: -20px 0px -10px 0px;">
-        <el-col v-for="(user, index) in users" :key="index" :span="8">
-          <div class="user-btn" @click="handleUserBtnClick(user)">
-            <d2-icon name="user-circle-o"/>
-            <span>{{user.name}}</span>
-          </div>
-        </el-col>
-      </el-row>
-    </el-dialog>
+    <!--<el-dialog-->
+      <!--title="快速选择用户"-->
+      <!--:visible.sync="dialogVisible"-->
+      <!--width="400px">-->
+      <!--<el-row :gutter="10" style="margin: -20px 0px -10px 0px;">-->
+        <!--<el-col v-for="(user, index) in users" :key="index" :span="8">-->
+          <!--<div class="user-btn" @click="handleUserBtnClick(user)">-->
+            <!--<d2-icon name="user-circle-o"/>-->
+            <!--<span>{{user.name}}</span>-->
+          <!--</div>-->
+        <!--</el-col>-->
+      <!--</el-row>-->
+    <!--</el-dialog>-->
   </div>
 </template>
 
